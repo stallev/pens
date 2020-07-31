@@ -5,8 +5,58 @@
 }
 @media (min-width: $tablet-width) {
   .container{
-    width: 768px;
+    width: $tablet-width;
   }
 }
 @media (min-width: $desctop-width) {
+  .container{
+    width: $desctop-width;
+  }
+}
+body{
+  background-color: gray;
+}
+.main{
+  margin-top: 50px;
+  margin-left: 50px;
+  margin-bottom: 50px;
+}
+button{
+  font-size: 15px;
+  border: 2px solid green;
+}
+.wrapper1{
+  width: 600px;
+  margin-top: 15px;
+  overflow: hidden;
+}
+.card-list{
+  position: relative;
+  width: 12000px;
+  display: flex;
+  flex-wrap: wrap;
+  overflow: hidden;
+  height: 200px;
+  margin-left: 0px;
+}
+.card{
+  width: 200px;
+  height: 200px;
+  font-size: 40px;
+  line-height: 100px;
+  text-align: center;
+  border: 2px solid red;
+  box-sizing: border-box;
+}
+.card-1{
+  background-color: green;
+}
+
+.wrapper{
+  margin-left: 100px;
+  margin-right: 100px;
+}
+.test{
+  width: 800px;
+  margin: 50px auto;
 }
