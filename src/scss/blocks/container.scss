@@ -60,3 +60,73 @@ button{
   width: 800px;
   margin: 50px auto;
 }
+
+//for popup
+
+.lesson{
+  width: 1000px;
+  margin: 0 auto;
+  padding: 25px 50px;
+  font-family: Gothica;
+}
+.page-title{
+  padding: 15px 10px;
+  text-align: center;
+  font-size: 30px;
+}
+.lesson a{
+  color: blue;
+  font-weight: bold;
+}
+.lesson__content,
+.lesson a{
+  padding: 10px 0;
+  font-size: 20px;
+  text-align: justify;
+}
+
+.popup{
+  position: fixed;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 35, 0.5);
+  font-family: Gothica;
+  opacity: 0;
+  visibility: hidden;
+}
+.popup:target{
+  opacity: 1;
+  visibility: visible;
+}
+.popup__title{
+  padding: 15px 10px;
+  text-align: center;
+  font-size: 30px;
+}
+.popup__body{
+  min-height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 30px 10px;
+}
+.popup__content{
+  position: relative;
+  max-width: 700px;
+  padding: 25px 50px;
+  background-color: #fff;
+}
+.popup__close{
+  position: absolute;
+  left: 10;
+  top: 10;
+  font-size: 35px;
+  color: #000;
+  text-decoration: none;
+}
+.popup__text{
+  font-size: 20px;
+  text-align: justify;
+}
