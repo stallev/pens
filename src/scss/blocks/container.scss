@@ -14,7 +14,6 @@
   }
 }
 body{
-  background-color: gray;
 }
 .main{
   margin-top: 50px;
@@ -84,7 +83,7 @@ button{
   font-size: 20px;
   text-align: justify;
 }
-
+//всплывающие окна
 .popup{
   position: fixed;
   height: 100%;
@@ -120,7 +119,7 @@ button{
 }
 .popup__close{
   position: absolute;
-  left: 10;
+  right: 10;
   top: 10;
   font-size: 35px;
   color: #000;
